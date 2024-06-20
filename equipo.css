@@ -1,0 +1,268 @@
+
+.centered-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-image {
+    margin-top: 150px;
+    width: 300px;  /* Ancho fijo de 300px */
+    height: auto;  /* Mantiene la proporción de aspecto */
+}
+
+.panel1{
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+}
+/*doc1*/
+.doc1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.lado1 {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.lado2 {
+    font-family: "montserrat";
+    border-radius: 50px;
+    height: auto; 
+    text-align: center;
+    flex: 2;
+    min-width: 200px;
+    padding: 20px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.lado2 a{
+    text-decoration: none;
+}
+
+
+.lado2 h3{
+    color: #0056b3;
+font-family: "marvin";
+}
+
+
+.lado1 img {
+    margin-top: 20px;
+    width: 400px;
+    max-width: 550px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .doc1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lado1,
+    .lado2 {
+        min-width: 100%;
+        padding: 10px 0;
+    }
+
+    .lado1 {
+        text-align: center;
+    }
+}
+/*servicio2*/
+.doc2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.lado3 {
+    font-family: "montserrat";
+    border-radius: 50px;
+    height: auto; 
+    text-align: center;
+    flex: 2;
+    min-width: 200px;
+    padding: 20px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+
+.lado3 h3{
+    color: #0056b3;
+    font-family: "marvin";
+    }
+
+.lado4 {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.lado4 img {
+    margin-top: 20px;
+    width: 400px;
+    max-width: 550px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .doc2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lado3,
+    .lado4 {
+        min-width: 100%;
+        padding: 10px 0;
+    }
+
+    .lado4{
+        text-align: center;
+    }
+}
+/*servicio3*/
+.doc3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.lado5 {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.lado6 {
+    font-family: "montserrat";
+    border-radius: 50px;
+    height: auto; 
+    text-align: center;
+    flex: 2;
+    min-width: 200px;
+    padding: 20px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.lado6 a{
+    text-decoration: none;
+}
+
+
+.lado6 h3{
+    color: #0056b3;
+font-family: "marvin";
+}
+
+
+.lado5 img {
+    margin-top: 20px;
+    width: 400px;
+    max-width: 550px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .doc3 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lado5,
+    .lado6 {
+        min-width: 100%;
+        padding: 10px 0;
+    }
+
+    .lado5 {
+        text-align: center;
+    }
+}
+/*servicio4*/
+.estilista {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.lado7 {
+    font-family: "montserrat";
+    border-radius: 50px;
+    height: auto; 
+    text-align: center;
+    flex: 2;
+    min-width: 200px;
+    padding: 20px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+
+.lado7 h3{
+    color: #0056b3;
+    font-family: "marvin";
+    }
+
+.lado8 {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.lado8 img {
+    margin-top: 20px;
+    width: 400px;
+    max-width: 550px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .estilista {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lado7,
+    .lado8 {
+        min-width: 100%;
+        padding: 10px 0;
+    }
+
+    .lado8{
+        text-align: center;
+    }
+}

@@ -1,0 +1,56 @@
+/* Footer styling */
+.footer {
+    color: #0056b3;
+    height: auto; /* Changed to auto for better responsiveness */
+    font-family: "montserrat";
+    background-color: #f8f9fa;
+    background-image: url('../img/marca\ awa.png'); /* Adjust the path as needed */
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: auto 80%; /* Adjust size as needed */
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer .footer-column p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Add some space between the lines */
+}
+
+.footer .footer-column p i {
+    margin-right: 10px; /* Add space between the icon and the text */
+    font-size: 1.2em; /* Increase the size of the icons */
+    color: #0056b3; /* Change color of the icons */
+}
+
+.footer .footer-column p:hover i {
+    color: #007bff; /* Change the icon color on hover */
+}
+
+.footer .footer-column a {
+    display: block;
+    margin-bottom: 10px;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.footer .footer-column a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer .footer-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}

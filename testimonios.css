@@ -1,0 +1,196 @@
+.twitter-post {
+    font-family: "montserrat";
+    display: flex;
+    padding: 15px;
+    margin: 40px;
+    border: 5px solid #ff8900;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-content {
+    flex: 1 1 auto;
+}
+
+.user-info {
+    margin-bottom: 5px;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.tweet-text {
+    margin-bottom: 10px;
+}
+
+.tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #0056b3;
+}
+
+.tweet-actions a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.tweet-actions a:hover {
+    color: #1da1f2;
+}
+
+.tweet-actions i {
+    margin-right: 5px;
+}
+
+/*testimonio 2*/
+.publicacion-twitter {
+    font-family: "montserrat";
+    display: flex;
+    padding: 15px;
+    margin: 40px;
+    border: 5px solid #ff8900;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contenido-publicacion {
+    flex: 1 1 auto;
+}
+
+.info-usuario {
+    margin-bottom: 5px;
+}
+
+.info-usuario h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-usuario p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.texto-tweet {
+    margin-bottom: 10px;
+}
+
+.acciones-tweet {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #0056b3;
+}
+
+.acciones-tweet a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.acciones-tweet a:hover {
+    color: #1da1f2;
+}
+
+.acciones-tweet i {
+    margin-right: 5px;
+}
+/*testimonio 3*/
+.post {
+    font-family: "montserrat";
+    display: flex;
+    padding: 15px;
+    margin: 40px;
+    border: 5px solid #ff8900;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.avatar-container {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.avatar-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contenido-post {
+    flex: 1 1 auto;
+}
+
+.info-usuario {
+    margin-bottom: 5px;
+}
+
+.info-usuario h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-usuario p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.texto-post {
+    margin-bottom: 10px;
+}
+
+.acciones-post {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #0056b3;
+}
+
+.acciones-post a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.acciones-post a:hover {
+    color: #1da1f2;
+}
+
+.acciones-post i {
+    margin-right: 5px;
+}
+

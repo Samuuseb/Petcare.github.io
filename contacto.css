@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.panelcentrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    position: relative;
+}
+
+.centered-image {
+    width: 80%; 
+    max-width: 600px; 
+    height: auto;
+    margin-top: 20px; 
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.panel2 {
+    width: 105%; 
+    max-width: 105%; 
+    height: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-form {
+    font-family: "marvin";
+    position: absolute;
+    top: 290px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; 
+    max-width: 600px; 
+    background-color: white;
+    padding: 20px;
+    border: 10px solid #ff8900;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.custom-form h2 {
+    padding: 10px;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.custom-form label {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    border: 2px solid #ff8900;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.custom-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:#0056b3;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-form button:hover {
+    background-color:  #007bff;
+}
+
+
+@media (max-width: 768px) {
+    .centered-image {
+        width: 90%; 
+    }
+
+    .panel2 {
+        width: 90%; 
+    }
+
+    .custom-form {
+        width: 90%; 
+    }
+}
+/*mapa*/
+.map-section {
+    margin-top: 100px;
+    background-color: #0056b3;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.map-section h1 {
+    font-family: "marvin";
+    font-size: 2em;
+    color:white;
+    padding: 10px;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: none;
+}
+
+.map-section p {
+    font-family: "montserrat";
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: white;
+}
+/*img*/
+.left-image-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.image-container {
+    flex: 1;
+    text-align: left;
+}
+
+.image-container img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .left-image-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .image-container, .text-container {
+        text-align: center;
+    }
+
+    .text-container {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .text-container h1 {
+        font-size: 1.5em;
+    }
+
+    .text-container p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-image-section {
+        padding: 10px;
+    }
+
+    .image-container img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .text-container h1 {
+        font-size: 1.2em;
+    }
+
+    .text-container p {
+        font-size: 0.9em;
+    }
+}
+/*horario*/
+.centered-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.centered-image {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .centered-image {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .centered-image {
+        width: 90%; 
+    }
+}
+/*img2*/
+.seccion-imagen-derecha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: auto; 
+    padding-top:20px ;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+.contenedor-imagen {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagen-derecha {
+    max-width: 300px; 
+    width: 100%;
+    height: auto; 
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .seccion-imagen-derecha {
+        justify-content: center;
+    }
+
+    .imagen-derecha {
+        max-width: 80%;
+    }
+}
